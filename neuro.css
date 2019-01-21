@@ -1,0 +1,211 @@
+#leftfill {
+	float: left;
+	clear: left;
+	width: 130px;
+	padding: 2px;
+	height: 100%;
+	border-width: 1px;
+	border-style: solid;
+	background: white;
+}
+
+#rightfill {
+	float: right;
+	clear: right;
+	width: 150px;
+	padding: 2px;
+	margin-bottom: 5px;
+	height: 100%;
+	background: white;
+}
+
+#header  {
+	text-align: center; 
+}
+
+.menu  {
+	text-align: center; 
+}
+
+
+p.zeroes {
+	font-size: 8pt;
+	color: gray;
+}
+
+span.zeroes {
+	font-size: 8pt;
+	color: gray;
+}
+
+span.zeroes_hov {
+	font-size: 8pt;
+	color: red;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline overline;
+}
+
+a.bold {
+	color: gray;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.bold:hover {
+	color: red;
+	font-weight: bold;
+	text-decoration: underline overline;
+}
+
+
+p.footer {
+	vertical-align: bottom;
+	font-size: 8pt;
+	color: black;
+}
+
+#footer a {
+	float: right;
+	font-size: 8pt;
+	color: black;
+}
+
+#footer a:hover {
+	font-size: 8pt;
+	text-decoration: overline, underline;
+}
+
+#footer {
+	clear: both;
+	margin: 5px;
+	padding: 5px;
+	background: transparent;
+	height: 50px;
+}
+
+.Box {
+	position: relative;
+	padding: 0px;
+	background: transparent;
+	width: 125px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.Box p {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0px;
+}
+
+.RHS {
+	float: right;
+	clear: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.LHS {
+	float: left;
+	clear: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+p {
+	font-size: 12pt;
+	color: gray;
+}
+
+.newsheader h1  {
+	padding-left: 5px;
+	font-size: 12pt;
+}
+
+.newsheader h1 a {
+	font-size: 12pt;
+	color: black;
+	z-index: 10
+}
+
+p.newsbody {
+	font-size: 10pt;
+}
+
+p.author {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+#fillright {
+	float: right;
+	clear: right;
+	width: 130px;
+	height: 100%;
+	background: white;
+	border-width: 1px;
+	border-style: solid;
+}
+
+h1 {
+	border-bottom-style: solid;
+	border-bottom-color: #EEE;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#mainbody {
+	position: relative;
+	margin: 10px 145px 5px 145px;
+	padding: 5px 10px 5px 10px;
+	background: transparent;
+}
+
+.realbody {
+	overflow: hidden;
+	clear: none;
+
+}
+
+img {
+	border: 0;
+}
+
+.thumb {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inline {
+  margin: 10px 10px 5px 15px !important;
+  margin: 10px 10px 5px 10px;
+}
+
+.inline img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+}
+
+.pic
+{
+  border-width: 1px;
+}
+
+.pic:hover {
+	border-style: solid;
+}
+
